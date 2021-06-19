@@ -4,11 +4,13 @@ import "bulma/css/bulma.css";
 import NavBar from "./navbar/Navbar";
 import FormField from "./formfield/FormField";
 import CoolButton from "./button/Button";
+import Signup from "./signup/Signup";
 
 const App = () => {
   return (
     <>
-      <NavBar />;
+      <Signup/>
+      {/* <NavBar />;
       <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
       <FormField
         label="Email"
@@ -20,7 +22,7 @@ const App = () => {
       </CoolButton>
       <CoolButton isSmall isSuccess>
         Button 2
-      </CoolButton>
+      </CoolButton> */}
     </>
   );
 };
